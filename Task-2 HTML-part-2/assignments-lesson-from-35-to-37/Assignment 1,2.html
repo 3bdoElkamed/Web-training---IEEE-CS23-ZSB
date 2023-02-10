@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Assignment 1&2</title>
+</head>
+<body>
+  <!-- Assignment 1 -->
+
+<!-- ما هو العنصر المناسب لوضعه داخل النموذج لإرسال البيانات عند الضغط عليه ؟ 
+    answer: <input type="submit" name="send" />
+-->
+<!-- ما هو العنصر المناسب ليكون عنوان للصفحة كاملة؟ -->
+  <h1></h1>
+<!-- ما هو العنصر المناسب ليكون عنوان لقسم داخل الصفحة؟ -->
+  <h2></h2>
+<!-- ما هو العنصر المناسب ليحتوي على فقرة نصية؟  -->
+  <p></p>
+<!-- كيف تحدد لغة المحتوى الخاص بصفحتك. يمكنك كتابة العنصر الكامل مع Attributes الخاصة بتحديد اللغة -->
+<html lang="en"></html>
+<!-- في عالم ال Accessibility هل الأفضل أن أكتب 10 – 20 أم 10 To 20 
+  answer : 10 to 20
+-->
+<!-- إذا كان لديك عنصر Div وتريد الوصول إليه عن الطريق الضغط على ال Tab Button ماذا سوف تفعل في العنصر ؟ 
+  answer:  we add tabindex attribute
+  <div tabindex="0"></div>
+-->
+<!-- ماذا تعني كلمة ARIA?
+  answer:  Accesible rich internet application
+-->
+
+<!-- Assignment 2  -->
+  <div class="choose-skill">
+    <div class="skill" role="checkbox" tabindex="0" aria-labelledby="py">Python</div>
+    <label id="py">Skill One</label>
+
+    <div class="skill" role="checkbox" tabindex="0" aria-labelledby="php">PHP</div>
+    <label id="php">Skill Two</label>
+    
+    <div class="skill" role="checkbox" tabindex="0" aria-labelledby="js">JavaScript</div>
+    <label id="js">Skill Three</label>
+  </div>
+</body>
+</html>
