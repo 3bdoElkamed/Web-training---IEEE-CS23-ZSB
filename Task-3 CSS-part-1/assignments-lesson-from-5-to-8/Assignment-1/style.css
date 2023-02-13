@@ -1,0 +1,15 @@
+div{
+  padding: 20px;
+  margin: 20px auto;
+}
+.assign-1-shape-1{
+  background-color: blueviolet;
+  background-color: #8a2be2;
+  background-color: hsl(271, 76%, 53%);
+}
+.assign-1-shape-2{
+  background-color: hsla(271, 76%, 53%, 0.507);
+}
+.assign-1-shape-3{
+  background-color: hsla(271, 76%, 53%, 0.247);
+}

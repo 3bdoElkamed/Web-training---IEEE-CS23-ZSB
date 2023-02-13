@@ -1,0 +1,11 @@
+div div span{
+  color: red;
+}
+div span{
+  color: blue;
+}
+div p,
+div:not(:first-of-type)
+{
+  color: green;
+}
