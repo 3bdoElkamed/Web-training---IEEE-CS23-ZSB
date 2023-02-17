@@ -1,0 +1,32 @@
+table{
+  width: 700px;
+  border-spacing: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table td{
+  padding: 10px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #fff;
+}
+img{
+  width: 50px;
+  border-radius: 5px;
+}
+thead td{
+  font-weight: bold;
+  background-color: #404040;
+  color: white;
+}
+table span{
+  font-size: 13px;
+  color: white;
+  padding: 3px 10px;
+}
+.view{
+  background-color: #03A9F4;
+
+}
+.delete{
+  background-color: #E91E63;
+}

@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Start header */
+header{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 5;
+}
+header .container{
+  padding: 30px 10px;
+}
+header .container .logo{
+  float: left;
+  width: 60%;
+}
+header img{
+  width: 180px;
+}
+header ul{
+}
+header ul li{
+  float: left;
+}
+header ul li a.active,header ul li a:hover{
+  color: #F9B700;
+}
+header ul a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-size: 14px;
+  color: white;
+}
+.clear{
+  clear: both;
+}
+/* End header */
+/* Start Landing */
+.landing{
+  background-image: url("landing.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+.landing .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.landing .container{
+  /* background-color: antiquewhite; */
+  position: relative;
+}
+.landing .container .text{
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 250px;
+  width: 50%;
+  padding-left: 15px;
+}
+.landing .text p:first-of-type{
+  text-transform: uppercase;
+  color: #eee5dd;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.landing .text p:last-of-type{
+  color: #eee5dd;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+.landing .text h2{
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.landing .container .text button{
+  text-transform: uppercase;
+  background-color: #F9B700;
+  color: white;
+  padding: 15px 30px;
+  font-size: 17px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+.landing form{
+  border: 1px solid #dddddd56;
+  padding: 40px 20px;
+  float: left;
+  position: absolute;
+  color: white;
+  width: 40%;
+  right:40px ;
+  top: 145px;
+}
+.landing form p{
+  display: block;
+  font-size: 18px;
+  margin-bottom:30px ;
+}
+.landing form input:not(:last-of-type){
+  outline: none;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 7px;
+}
+.landing form input[type=text],
+.landing form input[type=email],
+.landing form input[type=tel],
+.landing form .model{
+  width: 100%;
+}
+.landing form input::placeholder{
+  color: #7e838fc4;
+}
+.landing form .pick-up,
+.landing form .pick-off,
+.landing form .dat{
+  width:calc(50% - 3px);
+}
+.landing form input[type=submit]{
+  text-transform: uppercase;
+  display: block;
+  background-color: #F9B700;
+  width: 100%;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+/* End Landing */
