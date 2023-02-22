@@ -1,0 +1,17 @@
+div{
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #eee !important;
+  padding: 20px;
+  border: none !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  text-align: center;
+  color: transparent !important;
+}
+div::before{
+  content: "IEEE";
+  position: absolute;
+  color: black;
+}

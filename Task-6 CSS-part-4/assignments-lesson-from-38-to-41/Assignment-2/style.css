@@ -1,0 +1,10 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border-radius: 10px 50%;
+  box-shadow: inset 2px 0px 6px 2px #000000b3;
+  -webkit-box-shadow: inset 2px 0px 6px 2px #000000b3;
+  -moz-box-shadow: inset 2px 0px 6px 2px #000000b3;
+  -ms-box-shadow: inset 2px 0px 6px 2px #000000b3;
+}
