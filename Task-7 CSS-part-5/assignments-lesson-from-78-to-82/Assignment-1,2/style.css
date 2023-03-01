@@ -1,0 +1,7 @@
+div.main.red{
+  color: red;
+}
+/* -------------------------------- */
+.parent >.child:last-of-type{
+  color: red;
+}

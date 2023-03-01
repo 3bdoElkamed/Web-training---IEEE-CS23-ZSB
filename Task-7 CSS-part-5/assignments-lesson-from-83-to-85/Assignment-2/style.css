@@ -1,0 +1,33 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+}
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.prod{
+  background-color: rgb(238,238,238);
+  padding: 15px 50px;
+  width: 100%;
+  margin-bottom:20px;
+}
+@media (min-width:768px){
+  .prod{
+    width: calc(50% - 20px);
+    margin-bottom: 35px;
+  }
+  .prod h3{
+    color: red;
+  }
+}
+@media (min-width:991px){
+  .prod{
+    width: calc(25% - 20px);
+  }
+  .prod h3{
+    color: rgb(0,150,136);
+  }
+}
